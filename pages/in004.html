@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="UTF-8">
+	<title>聯絡我們</title>
+	<style rel="stylesheet" type="text/css">
+		 body{background-color: #FFE4B5;}
+		.inDiv {
+                   margin:0 auto;
+                   width:1024px;
+                   height:768px;
+               }
+
+        .inoneDiv {
+                   margin-top:0;
+                   width:1024px;
+                   height:515px;
+                 }
+
+        .inoneDiv .funcButtonDiv {
+                    display:block;
+                    float:left;
+                    width:151px;
+                    height:515px;
+                    background-size: 151px 515px;
+                 }
+
+        .inoneDiv .funcButtonDiv .logoDiv {
+                    margin :25px auto auto auto;
+                    width:151px;
+                    height:151px;
+                  }
+
+        .inoneDiv .funcButtonDiv .linkDiv {
+                    margin :0px auto auto auto;
+                    padding : 0 0 0 0;
+                    width:151px;
+                    height: 340px;
+                    border-style: double;
+                    border-width: : 3px;
+                  }
+
+        .inoneDiv .LoginAreaDiv {
+                     width:860px;
+                     height:515px;
+                     display:block;
+                     float:right;
+                     background-image: url('../assets/images/hkn666.png');
+                     background-size: all;
+                     border-style: double;
+                     border-width: : 3px;
+                   }
+        .hka{
+	         font-size: 36px;
+	         font-weight: bold;
+	         font-style: italic;
+	         text-decoration: underline;
+	         letter-spacing: 6px;
+	         padding: 20px;}
+        .hkb{background-color: #FFFF77;
+	         padding:10px;
+	         text-align: center;
+	         color:blue;}
+        .hkc{background-color: #EEFFBB;
+	         padding:10px;}
+        .hkd{background-color: #EEFFBB;
+	         padding:10px;
+	         color:blue;}
+        .hke{font-size: 16px;
+	         text-align: center;
+	         font-weight: bold;
+	         color:blue;
+	         background-color: #FFBB00;
+	         padding: 10px 20px;
+	         border-radius:15px;}
+	    .fourpic{overflow:hidden;}
+        .fourpic img{transform:scale(1,1);transition: all 1s ease-out;}
+        .fourpic img:hover{transform:scale(1.2,1.2);}
+	</style>
+</head>
+<body>
+	<div class="inDiv">
+		<div class="inoneDiv">
+             <div class="funcButtonDiv">
+			    <div class="logoDiv">
+			    	<div class="fourpic"><a href="https://wuyuan0408.github.io/"><img src="../assets/images/logo.png" alt="中原大世紀" width="151px"></a></div>
+			    </div>
+			    <div class="linkDiv">
+			    	<br><br><br>
+                    <div class="fourpic"><a href="in001.html"><img  src="../assets/images/m001.png" alt="" width="151px"></a></div><br>
+                    <div class="fourpic"><a href="in002.html"><img  src="../assets/images/m002.png" alt="" width="151px"></a></div><br>
+                    <div class="fourpic"><a href="in003.html"><img  src="../assets/images/m003.png" alt="" width="151px"></a></div><br>
+                    <div class="fourpic"><a href="in004.html"><img  src="../assets/images/m004.png" alt="" width="151px"></a></div><br>
+                    <div class="fourpic"><a href="in005.html"><img  src="../assets/images/m005.png" alt="" width="151px"></a></div><br>
+			    </div>
+			</div>      
+            <div class="LoginAreaDiv">
+            <form>
+            <table>
+			 	<tr>
+			 		<td colspan="4" align="center" class="hka">
+			 			聯絡我們
+			 		</td>
+			 	</tr>
+			 	<tr>
+			 		<td class="hkb">姓名</td>
+					<td class="hkc"><input type="text" name="name"></td>
+			 		<td class="hkb">性別</td>
+					<td class="hkd">男<input type="radio" name="gender" value="male">
+			 			女<input type="radio" name="gender" value="female">
+			 			其他<input type="radio" name="gender" value="notknownmale">
+			 		</td>
+
+			 	</tr>
+			 	<tr>
+			 		<td class="hkb">生日	</td>
+			 		<td colspan=3 class="hkc"><input type="date" name="birthday"></td>
+			 	</tr>
+			 	
+			 	<tr>
+			 		<td class="hkb">手機(國際碼 例:+886)</td>
+					<td class="hkc"><input type="text" name="cellphone" maxlength="10"></td>
+			 		<td class="hkb">市內電話</td>
+					<td class="hkc"><input type="tel" name="tel" maxlength="10"></td>
+			 	</tr>
+			 	<tr>
+			 		<td class="hkb">email</td>
+					<td colspan="3" class="hkc"> <input type="email" size="50" name="email"></td>
+			 	</td>
+			 	<tr>
+			 		<td class="hkb">地址</td>
+					<td colspan="3" class="hkc">
+			 			<select name="CountyName">
+			 			<optgroup label="香港地區">
+			 				<option value="香港島" >香港島</option>
+			 				<option value="九龍" >九龍</option>
+			 				<option value="新界" >新界</option>
+			 			</optgroup>
+			 			<optgroup label="中華民國"></label>>
+						    <option value="連江縣" >連江縣</option>
+						    <option value="宜蘭縣" >宜蘭縣</option>
+						    <option value="桃園縣" selected>桃園縣</option>
+						    <option value="新竹縣" >新竹縣</option>
+						    <option value="苗栗縣" >苗栗縣</option>
+						    <option value="臺中縣" >臺中縣</option>
+						    <option value="彰化縣" >彰化縣</option>
+						    <option value="南投縣" >南投縣</option>
+						    <option value="雲林縣" >雲林縣</option>
+					    	<option value="嘉義縣" >嘉義縣</option>
+					    	<option value="臺南縣" >臺南縣</option>
+					    	<option value="高雄縣" >高雄縣</option>
+					    	<option value="屏東縣" >屏東縣</option>
+					    	<option value="臺東縣" >臺東縣</option>
+					    	<option value="花蓮縣" >花蓮縣</option>
+					    	<option value="澎湖縣" >澎湖縣</option>
+					        <option value="基隆市" >基隆市</option>
+					    	<option value="新竹市" >新竹市</option>
+						    <option value="臺中市" >臺中市</option>
+						    <option value="嘉義市" >嘉義市</option>
+						    <option value="臺南市" >臺南市</option>
+						    <option value="臺北市" >臺北市</option>
+						    <option value="高雄市" >高雄市</option>
+						    <option value="台北縣" >台北縣</option>
+						    <option value="金門縣" >金門縣</option>
+						    <option value="連江縣" >連江縣</option>
+			 			</optgroup>
+						<option value="其他" >其他</option>
+						</select>
+
+						<input type="text" size="50" name="address">
+					</td>
+			 	</tr>
+			 	<tr>
+			 		<td valign="top" class="hkb">聯絡內容</td>
+					<td colspan="3" class="hkc">
+			 			<textarea rows="4" cols="50" name="note"></textarea>
+			 		</td>
+			 	</tr>
+				<tr>
+					<td colspan="4"> 
+					<div1>
+					    <input type="submit" value="資料送出" class="hke" /> &nbsp &nbsp
+			            <input type="reset" value="重設" class="hke" />
+			        </div1>
+					</td>
+					
+				</tr>
+		    </table>
+		    </form>			
+		    </div>
+		</div>
+	</div>
+</body>
+</html>
